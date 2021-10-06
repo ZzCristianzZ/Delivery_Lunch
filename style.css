@@ -9,6 +9,7 @@ body{
 .container{
     width: 80%;
     margin: auto;
+    min-width: 500px;
 
 }
 header{
@@ -83,8 +84,8 @@ article>p{
     font-size: 18px;
 }
 article>img{
-    width: 500px;
-    height: 450px;
+    width: 50%;
+    height: 45%;
     margin: 15px auto;
     
 
@@ -105,4 +106,19 @@ footer>a{
     color: white;
     margin: auto;
     text-decoration: none;
+    font-size: 40px;
 }
+footer>a:hover{
+    color: rgb(236, 26, 201);
+    transition: 1.5s;
+}
+@media (max-width: 600px) {
+  
+    article>img{
+        width:200px;
+        height: 150px;
+        margin: 15px auto;
+        
+    
+    }
+  }
